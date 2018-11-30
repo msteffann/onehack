@@ -1,0 +1,139 @@
+body, html {
+    background-color: gray;
+    height: 100%;
+}
+
+#header {
+    position: absolute;
+    width: 70%;
+    height: 12%; 
+    left: 3%;
+    top: 1%;
+}
+
+#videos {
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    left: 3%;
+    bottom: 1%;
+}
+
+#sidebar {
+    position: absolute;
+    width: 22%;
+    height: 80%;
+    right: 3%;
+    bottom: 1%;
+}
+
+#subscriber0 {
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    z-index: 100;
+}
+
+#subscriber1 {
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    z-index: 100;
+    top: 4%;
+    right: 3%;
+}
+
+#subscriber2 {
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    z-index: 100;
+    bottom: 2%;
+    right: 3%;
+}
+
+#publisher {
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    bottom: 15px;
+    z-index: 100;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+#emoji0 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10%;
+    top: 10%;
+    z-index: 100;
+}
+
+#emoji1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10%;
+    top: 35%;
+    z-index: 100;
+}
+
+#emoji2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10%;
+    top: 60%;
+    z-index: 100;
+}
+
+#emoji3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10%;
+    top: 85%;
+    z-index: 100;
+}
+
+#emojitext0 {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 32%;
+    top: 13%;
+    z-index: 100;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#emojitext1 {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    z-index: 100;
+    left: 32%;
+    top: 38%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#emojitext2 {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    z-index: 100;
+    left: 32%;
+    top: 63%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#emojitext3 {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    z-index: 100;
+    left: 30%;
+    top: 88%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
